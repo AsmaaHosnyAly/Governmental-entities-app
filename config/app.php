@@ -167,10 +167,12 @@ return [
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
+        App\Providers\RepoServiceProvider::class,
        
         App\Providers\RouteServiceProvider::class,
     ])->toArray(),
     Yoeunes\Toastr\ToastrServiceProvider::class,
+
 
     /*
     |--------------------------------------------------------------------------

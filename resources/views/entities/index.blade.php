@@ -1,6 +1,7 @@
 @extends('layouts.master')
 @section('css')
     @toastr_css
+    
     {{-- <link href="flasher_toastr" rel="stylesheet"/> --}}
     {{-- @flasher_toastr --}}
 
